@@ -3,9 +3,13 @@ package com.will.controller;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.will.pojo.User;
+import com.will.utils.JsonUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 @Controller
 public class UserController {
@@ -20,5 +24,12 @@ public class UserController {
         User user = new User("张三",13,"男");
         String s = mapper.writeValueAsString(user);
         return s;
+    }
+
+    @RequestMapping("/j2")
+    @ResponseBody
+    public String json2() throws JsonProcessingException {
+        Date date = new Date();
+        return JsonUtils.getJson(date,"yyyy-MM-dd HH:mm:ss");
     }
 }
