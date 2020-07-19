@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="springmvc-02-hellomvc:war exploded" />
+      <artifact name="springmvc-03-annotation:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a71b59f-6b85-4be4-91bd-ead86c2489f7" name="Default Changelist" comment="" />
+    <list default="true" id="9a71b59f-6b85-4be4-91bd-ead86c2489f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc_03_annotation_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-03-annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-03-annotation/springmvc-03-annotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-03-annotation/src/main/java/com/will/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-03-annotation/src/main/resources/springmvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-03-annotation/web/WEB-INF/jsp/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-03-annotation/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-03-annotation/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +32,9 @@
         <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -35,13 +51,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1erMkD3nq9NY7NR2nhjsKQDAuYg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -58,17 +79,16 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/springmvc_02_hellomvc_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="springmvc-02-hellomvc:war exploded">
+        <artifact name="springmvc-03-annotation:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/springmvc_02_hellomvc_war_exploded" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SpringMVC_5" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SpringMVC" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -126,7 +146,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="springmvc-02-hellomvc:war exploded" />
+          <artifact name="springmvc-03-annotation:war exploded" />
         </option>
       </method>
     </configuration>
@@ -215,7 +235,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -235,11 +255,15 @@
       <option name="presentableId" value="Default" />
       <updated>1595075398140</updated>
       <workItem from="1595075402092" duration="6130000" />
+      <workItem from="1595124943167" duration="1271000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="0" key="#Project_Structure" timestamp="1595079653023">
@@ -250,22 +274,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="254" y="0" key="#Tomcat_Server/0.0.1536.834@0.0.1536.834" timestamp="1595077137704" />
-    <state x="98" y="2" width="1327" height="832" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595080508880">
+    <state x="98" y="2" width="1327" height="832" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595126100753">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="98" y="2" width="1327" height="832" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1595080508880" />
+    <state x="98" y="2" width="1327" height="832" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1595126100753" />
     <state x="530" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1595075837920">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="530" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1595075837920" />
-    <state x="262" y="33" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1595078941979">
+    <state x="262" y="33" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1595125188612">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="262" y="33" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.834@0.0.1536.834" timestamp="1595078941979" />
-    <state x="436" y="115" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1595080121291">
+    <state x="262" y="33" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.834@0.0.1536.834" timestamp="1595125188612" />
+    <state x="436" y="115" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1595125292457">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="436" y="115" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.834@0.0.1536.834" timestamp="1595080121291" />
+    <state x="436" y="115" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.834@0.0.1536.834" timestamp="1595125292457" />
     <state x="492" y="97" key="FileChooserDialogImpl" timestamp="1595077135220">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -318,14 +342,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1011" height="200" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1595082300972" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1595080129791">
+    <state x="121" y="0" key="SettingsEditor" timestamp="1595125293097">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1595080129791" />
-    <state x="0" y="43" key="new project wizard" timestamp="1595078930761">
+    <state x="121" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1595125293097" />
+    <state x="0" y="43" key="new project wizard" timestamp="1595125168239">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="0" y="43" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1595078930761" />
+    <state x="0" y="43" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1595125168239" />
     <state x="341" y="186" key="run.anything.popup" timestamp="1595076472915">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
